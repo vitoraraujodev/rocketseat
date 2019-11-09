@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import lolcoffee from './assets/lol-coffee.jpeg';
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="200" src={lolcoffee} />
+  return <TechList />
 }
 
 export default App;
