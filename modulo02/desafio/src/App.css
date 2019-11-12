@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
-  background: #7159c1;
-  color: #FFF;
+  background: #F2F2F2;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 } 
+
+header {
+  background: #3B5999;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav > span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div i {
+  margin-left: 8px;
+}

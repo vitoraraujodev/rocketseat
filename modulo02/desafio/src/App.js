@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './components/Header'
+
 import './App.css';
-import lolcoffee from './assets/lol-coffee.jpeg';
 
 function App() {
-  return <h1>Hello Rocketseat</h1>
-  return <img width="200" src={lolcoffee} />
+  return (
+    <Header />
+  );
 }
 
 export default App; 
